@@ -1,0 +1,11 @@
+{
+    "file_list": [
+        "middleware.py"
+    ],
+    "custom_middleware": {
+        "driver": "python",
+	    "pre": [
+         {"name": "RedirectHook"}
+       ]
+   }
+}
